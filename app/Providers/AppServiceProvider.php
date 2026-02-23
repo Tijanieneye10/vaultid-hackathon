@@ -17,9 +17,7 @@ class AppServiceProvider extends ServiceProvider
      */
     public function register(): void
     {
-        if ($this->app->isLocal()) {
-            $this->app->bind(QoreidService::class, FakeQoreidService::class);
-        }
+        $this->app->bind(QoreidService::class, FakeQoreidService::class);
     }
 
     /**
