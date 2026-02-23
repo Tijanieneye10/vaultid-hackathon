@@ -20,8 +20,15 @@ Homestead.yaml
 npm-debug.log
 yarn-error.log
 /auth.json
+/.agents
+/.claude
+/.codex
+/.cursor
 /.fleet
+/.gemini
 /.idea
+/.junie
+/.mcp.json
 /.nova
 /.vscode
 /.zed
