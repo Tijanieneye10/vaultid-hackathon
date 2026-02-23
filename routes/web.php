@@ -9,6 +9,8 @@ use App\Http\Controllers\KycController;
 use App\Http\Controllers\ShareController;
 use Illuminate\Support\Facades\Route;
 
+Route::redirect('/', '/dashboard');
+
 // Public verification page
 Route::get('/v/{hash}', [PublicVerifyController::class, 'show'])->name('verify.public');
 
